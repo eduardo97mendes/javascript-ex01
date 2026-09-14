@@ -1,0 +1,309 @@
+/* ============================================================
+   ETAPA 01 - SELETOR UNIVERSAL
+   ============================================================
+
+   O seletor * seleciona todos os elementos da página.
+
+   Vamos utilizar:
+
+   margin
+   padding
+   box-sizing
+
+   OPÇÕES:
+
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+
+   Complete:
+*/
+
+* {
+    margin: ___;
+    padding: ___;
+    box-sizing: ___;
+}
+
+
+/* ============================================================
+   ETAPA 02 - BODY
+   ============================================================
+
+   body representa o corpo da página.
+
+   Podemos definir:
+
+   - fonte
+   - cor do texto
+   - fundo
+
+   OPÇÕES DE FONTE:
+
+   Arial, sans-serif
+   Verdana, sans-serif
+   "Courier New", monospace
+
+   OPÇÕES DE FUNDO:
+
+   #fff8ef
+   #ffffff
+   #222222
+*/
+
+body {
+
+    font-family: ___;
+
+    background: ___;
+
+    color: ___;
+
+}
+
+
+/* ============================================================
+   ETAPA 03 - HEADER
+   ============================================================
+
+   display: flex coloca os elementos
+   lado a lado.
+
+   justify-content controla o alinhamento
+   horizontal.
+
+   align-items controla o alinhamento
+   vertical.
+
+   OPÇÕES:
+
+   display:
+   flex
+   block
+
+   justify-content:
+   space-between
+   center
+   space-around
+
+   align-items:
+   center
+   flex-start
+   flex-end
+*/
+
+header {
+
+    display: ___;
+
+    justify-content: ___;
+
+    align-items: ___;
+
+}
+
+
+/* ============================================================
+   PRÁTICA CSS 01
+   ============================================================
+
+   Faça o cabeçalho ficar com fundo escuro.
+
+   OPÇÕES:
+
+   #111
+   #222
+   #000
+   #333
+
+   Complete:
+
+   background: ___;
+*/
+
+
+/* ============================================================
+   ETAPA 04 - GRID
+   ============================================================
+
+   CSS Grid permite organizar vários elementos
+   em linhas e colunas.
+
+   Exemplo:
+
+   grid-template-columns:
+   repeat(3, 1fr);
+
+   significa criar 3 colunas
+   com tamanhos iguais.
+*/
+
+.produtos {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(___, 1fr);
+
+    gap: ___;
+
+}
+
+
+/* ============================================================
+   PRÁTICA CSS 02
+   ============================================================
+
+   Faça os produtos ficarem em 2 colunas.
+
+   Complete:
+
+   grid-template-columns:
+       repeat(___, 1fr);
+
+   OPÇÕES:
+
+   1
+   2
+   3
+   4
+*/
+
+
+/* ============================================================
+   ETAPA 05 - BOTÃO
+   ============================================================
+
+   Vamos modificar:
+
+   - fundo
+   - cor
+   - espaço interno
+   - borda
+   - cursor
+
+   OPÇÕES:
+
+   background:
+   #e63900
+   #ff0000
+   #0066ff
+
+   color:
+   white
+   black
+
+   cursor:
+   pointer
+   default
+*/
+
+button {
+
+    background: ___;
+
+    color: ___;
+
+    padding: 12px 20px;
+
+    border: none;
+
+    border-radius: 8px;
+
+    cursor: ___;
+
+}
+
+
+/* ============================================================
+   ETAPA 06 - HOVER
+   ============================================================
+
+   :hover é utilizado quando o mouse
+   passa sobre um elemento.
+
+   Exemplo:
+
+   button:hover {
+
+       transform: scale(1.05);
+
+   }
+*/
+
+button:hover {
+
+    transform: ___;
+
+}
+
+
+/* ============================================================
+   PRÁTICA CSS 03
+   ============================================================
+
+   Escolha um efeito para o botão:
+
+   scale(1.05)
+   scale(1.1)
+   translateY(-3px)
+
+   Complete:
+
+   transform: ___;
+*/
+
+
+/* ============================================================
+   ETAPA 07 - RESPONSIVIDADE
+   ============================================================
+
+   @media permite criar regras diferentes
+   para determinados tamanhos de tela.
+
+   Exemplo:
+
+   @media (max-width: 800px)
+
+   significa:
+
+   "quando a tela tiver até 800px".
+*/
+
+@media (max-width: ___px) {
+
+    .hero {
+
+        flex-direction: column;
+
+    }
+
+    .produtos {
+
+        grid-template-columns: 1fr;
+
+    }
+
+}
+
+
+/* ============================================================
+   DESAFIO FINAL CSS
+   ============================================================
+
+   Personalize sua página:
+
+   1. Escolha uma nova cor de fundo.
+
+   2. Escolha uma nova cor para os botões.
+
+   3. Altere o tamanho do título.
+
+   4. Altere o espaço entre os produtos.
+
+   5. Altere o arredondamento dos cards.
+
+   6. Crie um efeito :hover diferente.
+
+   7. Teste a página no celular.
+*/
