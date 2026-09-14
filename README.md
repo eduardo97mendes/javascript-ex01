@@ -12,7 +12,7 @@
 
 ---
 
-# 📚 Sobre a atividade
+# 📚 Sobre a atividade - 14/09/2026
 
 Nesta atividade você irá desenvolver e personalizar uma **Landing Page de uma hamburgueria**, utilizando:
 
